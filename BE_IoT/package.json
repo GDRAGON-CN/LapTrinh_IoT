@@ -1,0 +1,22 @@
+{
+  "name": "iot-smart-home-backend",
+  "version": "1.0.0",
+  "description": "Backend API & MQTT Realtime Service for IoT Smart Home",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mqtt": "^5.10.1",
+    "mysql2": "^3.11.0",
+    "socket.io": "^4.7.5",
+    "uuid": "^10.0.0"
+  }
+}

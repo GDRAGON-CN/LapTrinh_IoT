@@ -1,0 +1,16 @@
+.layout {
+  display: flex;
+  height: 100vh;
+}
+.layout-content {
+  flex: 1;
+  min-width: 0;
+  overflow-y: auto;
+  padding: 24px 28px;
+}
+.layout-content--fit {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 24px;
+}

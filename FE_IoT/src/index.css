@@ -1,0 +1,40 @@
+/* Chỉ chứa reset toàn cục, không chứa style của trang nào */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family:
+    Inter,
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    sans-serif;
+  font-size: 14px;
+  color: #0f172a;
+  background: #f8fafc;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+button,
+input,
+select {
+  font: inherit;
+}
+button {
+  cursor: pointer;
+}
+small {
+  display: block;
+  font-size: 12px;
+}
+.muted {
+  color: #64748b;
+}
+.center {
+  text-align: center;
+}
